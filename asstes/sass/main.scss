@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef3f9;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(asstes/img/top-banner.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    .header-left{
+        width: 40%;
+        h1{
+            font-size: 50px;
+            margin: 40px 0;
+        }
+        .name-highlight{
+            color: orange;
+        }
+        h3{
+            margin:20px 0;
+        }
+        p{
+            color: #626266;
+            font-size: 16px;
+        }
+        input{
+            margin: 20px 0;
+            color: #fff;
+            background: linear-gradient(45deg, lightsalmon, tomato);
+            padding: 12px 40px;
+            border: 0;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+    .header-right{
+        width: 40%;
+        float: left;
+        img{
+            width: 100%;
+            margin-right: 20px;
+        }
+    }
+}
+#dream{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(asstes/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50px;
+    background-color: #f9eeee;
+    padding: 75px 0;
+    .header-left{
+        width: 40%;
+        h1{
+            font-size: 50px;
+            margin: 40px 0;
+        }
+        .name-highlight{
+            color: orange;
+        }
+        h3{
+            margin:20px 0;
+        }
+        p{
+            color: #626266;
+            font-size: 16px;
+        }
+        input{
+            margin: 20px 0;
+            color: #fff;
+            background: linear-gradient(45deg, lightsalmon, tomato);
+            padding: 12px 40px;
+            border: 0;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+    .header-right{
+        width: 40%;
+        float: left;
+        img{
+            width: 100%;
+            margin-right: 20px;
+        }
+    }
+}
+#experience{
+    margin: 150px 0;
+    background-image: url(asstes/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 50px;
+    .ex-into{
+        h1{
+            font-size: 45px;
+            margin-bottom: 30px;
+            margin-left: 2%;
+        }
+    }
+    .ex-sec{
+        display: flex;
+        justify-content: space-evenly;
+        .ex-left{
+            width: 40%;
+            padding: 30px 20px;
+            box-shadow: 1px 1px 20px #743cd95c;
+            border-radius: 6px;
+            border-left: 4px solid #6f43da;
+            
+        h1{
+            font-size: 40px;
+            margin: 10px 0;
+        }
+            
+        h3{
+            margin:20px 0;
+            color: orange;
+        }
+        p{
+            color: #626266;
+            font-size: 16px;
+        }
+        ::before{
+            content: "";
+            display: block;
+            width: 6px;
+            background: yellow;
+        }
+        }
+        .ex-right{
+            width: 40%;
+            padding: 30px 20px;
+            box-shadow: 1px 1px 20px #743cd95c;
+            border-radius: 6px;
+            border-left: 4px solid #6f43da;
+            
+        h1{
+            font-size: 40px;
+            margin: 10px 0;
+        }
+            
+        h3{
+            margin:20px 0;
+            color: orange;
+        }
+        p{
+            color: #626266;
+            font-size: 16px;
+        }
+        }
+    }
+}
+footer{
+    p{
+        margin: 10px 0;
+        text-align: center;
+        color: #626262;
+    }
+}

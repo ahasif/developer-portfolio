@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef3f9; }
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(asstes/img/top-banner.png);
+  background-repeat: no-repeat;
+  background-color: #fff; }
+  header .header-left {
+    width: 40%; }
+    header .header-left h1 {
+      font-size: 50px;
+      margin: 40px 0; }
+    header .header-left .name-highlight {
+      color: orange; }
+    header .header-left h3 {
+      margin: 20px 0; }
+    header .header-left p {
+      color: #626266;
+      font-size: 16px; }
+    header .header-left input {
+      margin: 20px 0;
+      color: #fff;
+      background: linear-gradient(45deg, lightsalmon, tomato);
+      padding: 12px 40px;
+      border: 0;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer; }
+  header .header-right {
+    width: 40%;
+    float: left; }
+    header .header-right img {
+      width: 100%;
+      margin-right: 20px; }
+
+#dream {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(asstes/img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50px;
+  background-color: #f9eeee;
+  padding: 75px 0; }
+  #dream .header-left {
+    width: 40%; }
+    #dream .header-left h1 {
+      font-size: 50px;
+      margin: 40px 0; }
+    #dream .header-left .name-highlight {
+      color: orange; }
+    #dream .header-left h3 {
+      margin: 20px 0; }
+    #dream .header-left p {
+      color: #626266;
+      font-size: 16px; }
+    #dream .header-left input {
+      margin: 20px 0;
+      color: #fff;
+      background: linear-gradient(45deg, lightsalmon, tomato);
+      padding: 12px 40px;
+      border: 0;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer; }
+  #dream .header-right {
+    width: 40%;
+    float: left; }
+    #dream .header-right img {
+      width: 100%;
+      margin-right: 20px; }
+
+#experience {
+  margin: 150px 0;
+  background-image: url(asstes/img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 50px; }
+  #experience .ex-into h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-left: 2%; }
+  #experience .ex-sec {
+    display: flex;
+    justify-content: space-evenly; }
+    #experience .ex-sec .ex-left {
+      width: 40%;
+      padding: 30px 20px;
+      box-shadow: 1px 1px 20px #743cd95c;
+      border-radius: 6px;
+      border-left: 4px solid #6f43da; }
+      #experience .ex-sec .ex-left h1 {
+        font-size: 40px;
+        margin: 10px 0; }
+      #experience .ex-sec .ex-left h3 {
+        margin: 20px 0;
+        color: orange; }
+      #experience .ex-sec .ex-left p {
+        color: #626266;
+        font-size: 16px; }
+      #experience .ex-sec .ex-left ::before {
+        content: "";
+        display: block;
+        width: 6px;
+        background: yellow; }
+    #experience .ex-sec .ex-right {
+      width: 40%;
+      padding: 30px 20px;
+      box-shadow: 1px 1px 20px #743cd95c;
+      border-radius: 6px;
+      border-left: 4px solid #6f43da; }
+      #experience .ex-sec .ex-right h1 {
+        font-size: 40px;
+        margin: 10px 0; }
+      #experience .ex-sec .ex-right h3 {
+        margin: 20px 0;
+        color: orange; }
+      #experience .ex-sec .ex-right p {
+        color: #626266;
+        font-size: 16px; }
+
+footer p {
+  margin: 10px 0;
+  text-align: center;
+  color: #626262; }
